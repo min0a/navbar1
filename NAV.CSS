@@ -1,0 +1,171 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+.nav-bar {
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 5.632411067193676vh ;
+	gap: 0px;
+	overflow: visible;
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+.backarrow-button  {
+	width: 40px;
+	height: 40px;
+	top: 9px;
+	left: 28px;
+	padding: 0px 10% 0px 0%;
+	gap: 0px;
+	display: flex;
+	list-style:none;
+	margin-left:4%;
+}
+.Home {
+	padding-right: 15%;
+	font-size: 28px;
+	width: 79px;
+	height: 34px;
+	top: 12px;
+	left: 105px;
+	gap: 0px;
+	font-family: Inter;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 33.89px;
+	text-align: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: flex;
+}
+.L3D-Engine {
+	padding-right: 10%;
+	color: #FFFFFF;
+	width: 136px;
+	height: 34px;
+	top: 11px;
+	left: 221px;
+	gap: 0px;
+	font-family: Inter;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 33.89px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+}
+.sheets {
+	width: 92px;
+	height: 34px;
+	top: 11px;
+	left: 394px;
+	gap: 0px;
+	font-family: Inter;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 33.89px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: flex;
+	
+}
+.Villa-1 {
+	width: 93px;
+	height: 39px;
+	top: 9px;
+	left: 1211px;
+	gap: 0px;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 38.73px;
+	text-align: left;
+	color: white;
+	display: flex;
+	text-decoration: none;
+	position: fixed;
+	left: 87%;
+}
+.logo {
+	width: 69px;
+	height: 39px;
+	top: 6px;
+	left: 1337px;
+	gap: 0px;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38.73px;
+	text-align: left;
+	color: #FF7B01;
+	padding-left: 6%;
+	text-decoration: none;
+	display: flex;
+	position:fixed;
+	left:89%
+
+
+}
+div.backarrow-button:hover {
+	stroke: #FF7B01;
+	
+}
+.nav-bar:hover {
+	background: rgba(0,0,0,0.2);
+}
+.Home:hover, .L3D-Engine:hover, .sheets:hover, .Villa-1:hover {
+	color: #FF7B01;
+	
+}
+
+nav ul {
+	display:flex;
+}
+.f{
+	stroke:white;
+	fill:none;
+}
+.f:hover {
+	stroke: orange;
+	fill: none;
+}
+
+
+@media (min-width:1025px) and (max-width:1300px) {
+	.nav-bar {
+		
+		width: 100% !important;
+	}
+
+	.Villa-1 {
+		position: fixed !important;
+		left: 80%;
+	}
+
+	.logo {
+		position: fixed !important;
+		left: 85%;
+	}
+}
+@media (min-width:769px) and (max-width:1024px) {
+	.nav-bar {
+		
+		width: 100% !important;
+		
+	}
+
+	.Villa-1 {
+		position: fixed !important;
+		left: 75%;
+	}
+
+	.logo {
+		position: fixed !important;
+		left: 85%
+	}
+}
